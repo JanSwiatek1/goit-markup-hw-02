@@ -134,6 +134,13 @@ footer p{
     margin-right: 10px;
 }
 
+.list2{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+
+}
+
 figcaption{
     background-color: #FFFFFF;
     margin-top: auto;
