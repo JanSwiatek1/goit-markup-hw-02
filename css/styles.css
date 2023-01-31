@@ -1,0 +1,146 @@
+body{
+    font-family:'Roboto','Verdana', 'Tahoma', sans-serif;
+    color: #000000;
+
+
+}
+header{
+    background-color: #ECECEC;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+main{
+    margin: 0%;
+}
+footer{
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.section1{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: #2F303A;
+}
+
+
+
+.logo{
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+    padding: 17px;
+    color: #000000;
+}
+footer .logo{
+    color: #FFFFFF;
+}
+
+h1{
+    font-weight: 900;
+}
+
+.section3{
+   background-color:#F5F4FA;
+
+}
+
+.section4{
+    display: flex;
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+footer .link{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 171%;
+}
+
+footer p{
+    font-size: 14px;
+    line-height: 171%;
+}
+
+.link:hover {
+    color: #2196F3;
+}
+
+.button1{
+     width: 200px;
+    height: 50px;
+    left: 700px;        
+    top: 430px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-color: #2196F3;
+    border-radius: 8%;
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+       
+}
+.button2 {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    color: #000000;
+    background-color: #F5F4FA;
+    position: center;
+    border-color: #F5F4FA;
+    border-radius: 8%;
+    
+
+}
+.button2:hover{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+.headline {
+    color:#FFFFFF;
+    text-align:center;
+    line-height: 60px;
+}
+
+.headline2 {
+    text-align: center;
+}
+
+.list1{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+
+}
+
+.list1 li{
+    margin-right: 10px;
+}
+
+figcaption{
+    background-color: #FFFFFF;
+    margin-top: auto;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.blue{
+    color:#2196F3;
+}
