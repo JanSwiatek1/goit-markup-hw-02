@@ -156,6 +156,7 @@ body{
     list-style-type: none;
     padding: 20px;
     border-radius: 4px;
+    justify-content:center;
 }
 
 .list_main li{
@@ -173,6 +174,7 @@ body{
     display: flex;
     list-style-type: none;
     margin: auto;
+    flex-wrap: wrap;
 
 }
 
