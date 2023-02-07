@@ -1,17 +1,19 @@
+:root{
+    --text-color: black;
+}
+
 body{
     font-family:'Roboto','Verdana', 'Tahoma', sans-serif;
 }
 
-:root{
-    color: #212121;
-}
 
-.header_block{
+
+.header{
     background-color: #ECECEC;
     width: 1600px;
     height: 80px;
-    left: 0px;
-    top: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     display: flex;
     list-style-type: none;
     margin: auto;
@@ -19,16 +21,16 @@ body{
     border-radius: 4px;
 }
 
-.footer_block{
+.footer{
     background-color: #2F303A;
     color: #FFFFFF;
 }
 
-.section1{
+.section_button{
     width: 1600px;
     height: 600px;
-    left: 0px;
-    top: 80px;
+    margin-left: 0px;
+    margin-top: 80px;
     background-color: #2F303A;
 }
 
@@ -46,17 +48,17 @@ body{
 }
 
 
-.pictures-human{
-   background-color:#F5F4FA;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
+.pictures-staff{
+background-color:#F5F4FA;
+width: 1600px;
+height: 648px;
+margin-left: 0px;
+margin-top: 1449px;
 
 
 }
 
-.section4{
+.section_portfolio{
     display: flex;
     list-style-type: none;
 }
@@ -68,13 +70,13 @@ body{
 
 }
 
-.footer_block .link{
+.footer .link{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 2.4;
 }
 
-.footer_block p{
+.footer p{
     font-size: 14px;
     line-height: 2;
 }
@@ -84,10 +86,11 @@ body{
 }
 
 .button_main{
-     width: 200px;
+    position:absolute;
+    width: 200px;
     height: 50px;
-    left: 700px;        
-    top: 430px;
+    margin-left: 700px;        
+    margin-top: 430px;
     color: #FFFFFF;
     background-color: #2196F3;
     border-color: #2196F3;
@@ -105,8 +108,8 @@ body{
 .button_portfolio {
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
+    margin-left: 700px;
+    margin-top: 430px;
     background-color: #F5F4FA;
     position: center;
     border-color: #F5F4FA;
